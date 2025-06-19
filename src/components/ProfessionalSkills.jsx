@@ -35,7 +35,23 @@ const skillCategories = [
   },
   {
     name: 'Security Domains',
-    skills: ['Network Security', 'Application Security', 'Cloud Security', 'Identity & Access Management', 'Threat Modeling', 'Incident Response', 'Vulnerability Assessment', 'Security Architecture', 'Risk Management'],
+    skills: [
+      'Network Security',
+      'Application Security',
+      'Cloud Security',
+      'Identity & Access Management',
+      'Threat Modeling',
+      'Incident Response',
+      'Vulnerability Assessment',
+      'Security Architecture',
+      'Risk Management',
+      'User Behavioral Analytics (UBA)',
+      'Threat Indicators',
+      'Pattern Detection',
+      'Risk Evaluation',
+      'Log Analysis',
+      'Testing Cycles'
+    ],
     icon: '🛡️',
     delay: '600'
   }

@@ -243,6 +243,13 @@ function Home() {
 
   return (
     <div className={`min-h-screen ${isDarkMode ? 'bg-gray-900 text-white' : 'bg-white text-gray-900'}`}>
+      {/* Construction Banner */}
+      <div className="fixed top-0 left-0 right-0 bg-yellow-500 text-black py-2 px-4 text-center z-50">
+        <p className="text-sm font-semibold animate-pulse">
+          🚧 Portfolio Website Under Construction 🚧
+        </p>
+      </div>
+
       {/* Hero Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
