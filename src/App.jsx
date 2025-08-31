@@ -78,17 +78,6 @@ function Home() {
 
   const experiences = [
     {
-      title: 'ACSUS Lab Researcher',
-      company: 'Rowan University',
-      location: 'New Jersey',
-      period: 'Jan 2025 – May 2025',
-      points: [
-        'Designed a Rust Distributed Event Beacon Network (32 async nodes on Debian 12).',
-        'Benchmarked 125 tests on 42 Raspberry Pi 4 boards → peak 13.3 req/s, <20s median latency.',
-        'Authored poster (Rowan Grad Research Day) & paper (USENIX NSDI submission).'
-      ]
-    },
-    {
       title: 'DevSecOps Engineer (Volunteer)',
       company: 'Saayam For All',
       location: 'Remote',
@@ -99,6 +88,17 @@ function Home() {
         'Integrate SAST, DAST, IAST scanners; produce remediation reports.',
         'Implement Prometheus + Grafana for uptime & performance dashboards.',
         'Coach team on DevSecOps best practices in daily stand-ups.'
+      ]
+    },
+    {
+      title: 'Advanced Cyber Systems and Usable Security Lab Researcher',
+      company: 'Rowan University',
+      location: 'New Jersey',
+      period: 'Jan 2025 – May 2025',
+      points: [
+        'Designed a Rust Distributed Event Beacon Network (32 async nodes on Debian 12).',
+        'Benchmarked 125 tests on 42 Raspberry Pi 4 boards → peak 13.3 req/s, <20s median latency.',
+        'Authored poster (Rowan Grad Research Day) & paper (USENIX NSDI submission).'
       ]
     },
     {
@@ -161,7 +161,7 @@ function Home() {
       technologies: ['React', 'Node', 'Express', 'MongoDB'],
       category: 'Full-Stack',
       github: '#',
-      demo: '#'
+      demo: 'https://buddyride-qs9w.onrender.com/'
     }
   ];
 
@@ -379,8 +379,8 @@ function Home() {
                 <p className="text-slate-400">Python-based analytics, scikit-learn, and predictive modeling.</p>
               </div>
               <div className="project-card">
-                <h3 className="text-xl font-semibold mb-3">DevOps & Automation</h3>
-                <p className="text-slate-400">CI/CD pipelines, IaC with Pulumi, and monitoring solutions.</p>
+                <h3 className="text-xl font-semibold mb-3">AI & Automation</h3>
+                <p className="text-slate-400">AI agents, Zapier, n8n workflows, and intelligent automation solutions.</p>
               </div>
               <div className="project-card">
                 <h3 className="text-xl font-semibold mb-3">Threat Detection & IR</h3>
@@ -734,11 +734,13 @@ function Home() {
                     <span>GitHub</span>
                   </a>
                   <a 
-                    href="#"
+                    href="https://rakeshvasa.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center space-x-3 text-slate-300 hover:text-blue-500 transition-colors"
                   >
                     <FaGlobe className="w-5 h-5" />
-                    <span>Dev.to (placeholder)</span>
+                    <span>Portfolio</span>
                   </a>
                 </div>
               </motion.div>

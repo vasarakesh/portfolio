@@ -36,6 +36,14 @@ const projects = [
     github: '#',
     demo: '#',
   },
+  {
+    title: 'BuddyRide (Campus Ride-Share)',
+    description: 'MVP with sign-up, ride-match, push notifications for campus transportation.',
+    achievements: ['Real-time ride matching', 'Push notifications', 'User authentication'],
+    technologies: ['React', 'Node.js', 'Express', 'MongoDB'],
+    github: '#',
+    demo: 'https://buddyride-qs9w.onrender.com/',
+  },
 ];
 
 export default function Projects() {
